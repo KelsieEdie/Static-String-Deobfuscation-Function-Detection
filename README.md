@@ -42,7 +42,7 @@ cd v.1.0/
 3. Execute the analysis script with your target binary:
 
 ```bash
-python3 deobfuscation_analysis.py -filename "/path/to/binary" -project
+python3 deobfuscation_analysis.py -filename "/path/to/binary" --project-location "/path/to/ghidra/project" --projectname "name of ghidra project"
 ```
 
 4. Review results printed to terminal and saved output (JSON) detailing heuristic scores and outlier candidate functions.
